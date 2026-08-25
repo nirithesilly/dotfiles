@@ -20,9 +20,11 @@ window#waybar {
 #workspaces,
 #clock,
 #cpu,
+#temperature,
 #memory,
 #network,
 #battery,
+#backlight,
 #pulseaudio,
 #tray,
 #language {
@@ -77,6 +79,14 @@ window#waybar {
 
 #memory {
     color: #f9e2af;
+}
+
+#temperature {
+    color: #f38ba8;
+}
+
+#backlight {
+    color: #74c7ec;
 }
 
 #tray {

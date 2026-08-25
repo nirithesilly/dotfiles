@@ -1,0 +1,99 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d2705fd7882071bc921e464f2f128c31f62fb001c468cfa9d4c0ae36038fa0e1",
+    "telemetry.devDeviceId": "fb4b5690-741f-4d88-9f71-c7729197111b",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/niri/projects/yume_forest"
+            },
+            {
+                "folderUri": "file:///home/niri/.minecraft/mods"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/niri/projects/yume_forest": "__default__profile__",
+            "file:///home/niri/.steam/debian-installation/steamapps/compatdata/3577796550/pfx/drive_c/Program%20Files/HoYoPlay": "__default__profile__",
+            "file:///home/niri/.minecraft/saves/kotaktar": "__default__profile__",
+            "file:///home/niri/.minecraft/mods": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1786871236026": "__default__profile__",
+            "1787227713907": "__default__profile__",
+            "1787507660990": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 234,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 234,
+            "auxiliaryBarWidth": 234,
+            "workspaces": {
+                "0335cac3dbb0c3e826cfcc968af7f344": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "b02e7f3fde9ba43c4337ec0f6f1f3227": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4045c893c25a6c9a36f81fdc1eefe5fb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5601853f3069b5125488760bee4d9e38": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/niri/.minecraft/mods",
+            "backupPath": "/home/niri/.config/VSCodium/Backups/80441b6c623c8ff415dbb320c7403fde",
+            "uiState": {
+                "mode": 1,
+                "x": 16,
+                "y": 10,
+                "width": 936,
+                "height": 1006
+            }
+        },
+        "openedWindows": []
+    }
+}

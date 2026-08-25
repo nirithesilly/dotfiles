@@ -1,2 +1,14 @@
+format = """$directory
+$character"""
+
 [gcloud]
 disabled = true
+
+[directory]
+home_symbol = "~"
+truncation_length = 0
+format = "[\\(^~^\\)](bold #89b4fa)[$path]($style)"
+
+[character]
+success_symbol = "[❯](bold #89b4fa)"
+error_symbol = "[❯](bold #f38ba8)"

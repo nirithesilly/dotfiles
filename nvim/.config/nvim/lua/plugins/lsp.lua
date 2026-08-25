@@ -2,13 +2,15 @@ return {
   {
     "williamboman/mason.nvim",
     cmd = "Mason",
-    opts = {},
+    opts = {
+      ensure_installed = { "stylua", "shfmt" },
+    },
   },
   {
     "williamboman/mason-lspconfig.nvim",
     dependencies = { "williamboman/mason.nvim" },
     opts = {
-      ensure_installed = { "pyright", "lua_ls", "stylua", "shfmt" },
+      ensure_installed = { "pyright", "lua_ls", "clangd" },
       automatic_enable = true,
     },
   },
@@ -22,6 +24,12 @@ return {
       vim.lsp.config("*", {
         capabilities = require("blink.cmp").get_lsp_capabilities(),
       })
+
+      for _, server in ipairs({ "gopls", "rust_analyzer" }) do
+        if vim.fn.executable(server) == 1 then
+          vim.lsp.enable(server)
+        end
+      end
 
       vim.lsp.config("lua_ls", {
         settings = {

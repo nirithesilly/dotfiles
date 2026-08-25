@@ -10,7 +10,7 @@ return {
         telescope = true,
         oil = true,
         blink_cmp = true,
-        lualine = true,
+        lualine = {},
         which_key = true,
       },
     },
@@ -25,7 +25,7 @@ return {
     event = "VeryLazy",
     opts = {
       options = {
-        theme = "catppuccin",
+        theme = "catppuccin-mocha",
         section_separators = "",
         component_separators = "",
         globalstatus = true,

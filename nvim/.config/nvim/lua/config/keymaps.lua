@@ -21,6 +21,8 @@ map("n", "<S-h>", "<cmd>bprevious<CR>", { desc = "Previous buffer" })
 map("n", "<S-l>", "<cmd>bnext<CR>", { desc = "Next buffer" })
 map("n", "<leader>x", "<cmd>bdelete<CR>", { desc = "Close buffer" })
 
+map("n", "<leader>t", "<cmd>term bash<CR>", { desc = "Open interactive bash terminal" })
+
 map("n", "[d", vim.diagnostic.goto_prev, { desc = "Previous diagnostic" })
 map("n", "]d", vim.diagnostic.goto_next, { desc = "Next diagnostic" })
 map("n", "<leader>d", vim.diagnostic.open_float, { desc = "Open diagnostic float" })
