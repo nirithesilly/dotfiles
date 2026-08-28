@@ -91,6 +91,7 @@ layout {
 }
 
 
+spawn-at-startup "waybar"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "awww-daemon"
 spawn-at-startup "sh" "-c" "sleep 1 && awww img /home/niri/Pictures/Wallpapers/1w_pape.png"
