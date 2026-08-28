@@ -1,0 +1,60 @@
+#Прозрачность
+[window]
+opacity = 0.85
+
+#Убираем рамки и заголовок окна
+decorations = "None"
+
+#Шрифт
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+#Цвета (kitty default)
+[colors.primary]
+background = "#000000"
+foreground = "#dddddd"
+
+[colors.normal]
+black = "#000000"
+red = "#cc0403"
+green = "#19cb00"
+yellow = "#cecb00"
+blue = "#0d73cc"
+magenta = "#cb1ed1"
+cyan = "#0dcdcd"
+white = "#dddddd"
+
+[colors.bright]
+black = "#767676"
+red = "#f2201f"
+green = "#23fd00"
+yellow = "#fffd00"
+blue = "#1a8fff"
+magenta = "#fd28ff"
+cyan = "#14ffff"
+white = "#ffffff"
+
+[colors.selection]
+text = "#000000"
+background = "#fffacd"
+
+#Курсор
+[cursor.style]
+shape = "Block"
+blinking = "Never"
