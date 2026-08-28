@@ -48,13 +48,13 @@
         "format-wifi": "󰤨",
         "format-ethernet": "󰈀",
         "format-disconnected": "󰤮",
-        "on-click": "alacritty nmtui",
+        "on-click": "alacritty -e nmtui",
         "tooltip-format": "{ifname}: {ipaddr} ({essid})"
     },
 
     "cpu": {
         "format": "󰋪 {usage}%",
-        "on-click": "alacritty btop"
+        "on-click": "alacritty -e btop"
     },
 
     "temperature": {
@@ -66,7 +66,7 @@
 
     "memory": {
         "format": "󰍛 {}%",
-        "on-click": "alacritty btop"
+        "on-click": "alacritty -e btop"
     },
 
     "battery": {
