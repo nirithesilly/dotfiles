@@ -22,6 +22,11 @@ input {
 
 }
 
+cursor {
+    xcursor-theme "catppuccin-mocha-dark-cursors"
+    xcursor-size 24
+}
+
 output "eDP-1" {
 
     mode "1920x1080@120.030"
