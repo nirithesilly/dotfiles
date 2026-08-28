@@ -99,7 +99,7 @@ layout {
 spawn-at-startup "waybar"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "awww-daemon"
-spawn-at-startup "sh" "-c" "sleep 1 && awww img /home/niri/Pictures/Wallpapers/1w_pape.png"
+spawn-at-startup "sh" "-c" "i=0; while [ $i -lt 10 ] && ! awww img /home/niri/Pictures/Wallpapers/1w_pape.png; do sleep 1; i=$((i+1)); done"
 
 hotkey-overlay {
     skip-at-startup
