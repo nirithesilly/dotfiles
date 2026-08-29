@@ -8,8 +8,7 @@ struct Comment {
   std::string text; // comment text without leading "# "
 };
 
-static const std::string START_TAG = "# --- full-lines START ---";
-static const std::string END_TAG = "# --- full-lines END ---";
+static const std::string MARKER = "#----------------";
 
 static std::string trim(const std::string& s) {
   size_t b = s.find_first_not_of(" \t\r");
@@ -100,9 +99,12 @@ int main(int argc, char** argv) {
   in.close();
 
   size_t startLine = 0, endLine = 0;
+  bool foundStart = false;
   for (size_t i = 0; i < lines.size(); ++i) {
-    if (trim(lines[i]) == START_TAG) startLine = i + 1;
-    if (trim(lines[i]) == END_TAG && startLine) { endLine = i + 1; break; }
+    if (trim(lines[i]) == MARKER) {
+      if (!foundStart) { startLine = i + 1; foundStart = true; }
+      else { endLine = i + 1; break; }
+    }
   }
   size_t oldH = (startLine && endLine) ? (endLine - startLine + 1) : 0;
 
@@ -110,7 +112,7 @@ int main(int argc, char** argv) {
   size_t newH = comments.size() + 2; // two marker lines
 
   std::vector<std::string> newBlock;
-  newBlock.push_back(START_TAG);
+  newBlock.push_back(MARKER);
   for (auto& c : comments) {
     size_t finalLine;
     if (startLine == 0) {
@@ -122,7 +124,7 @@ int main(int argc, char** argv) {
     }
     newBlock.push_back("#" + c.text + " - :" + std::to_string(finalLine) + "j");
   }
-  newBlock.push_back(END_TAG);
+  newBlock.push_back(MARKER);
 
   std::vector<std::string> oldBlock;
   if (startLine) for (size_t i = startLine - 1; i < endLine; ++i) oldBlock.push_back(lines[i]);
