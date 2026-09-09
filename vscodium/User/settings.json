@@ -76,4 +76,10 @@
   "go.formatTool": "goimports",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.diagnosticMode": "workspace",
+  "editor.autoClosingComments": "always",
+  "editor.autoClosingBrackets": "always",
+  "markdown-mermaid.languages": ["mermaid"],
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.includeComments": false,
+  "editor.unicodeHighlight.includeStrings": false,
 }

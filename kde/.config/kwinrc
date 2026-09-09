@@ -1,0 +1,66 @@
+[Desktops]
+Id_1=d5285f16-eda1-41fc-90a3-565175eac5bb
+Id_2=48f8cc78-fad1-4f40-b216-7221c738cabb
+Id_3=3770189a-4b39-4fbc-bbc1-1387e57d8e7e
+Id_4=605ffdcf-1fe5-4747-b13e-61eb8bddc14f
+Id_5=4ca5f749-379e-4487-b20d-c60f0c86c454
+Id_6=3629cd03-b2e2-448c-8667-df12be56b7f8
+Id_7=731828a9-e5d5-428c-a29c-c5f04400c4a5
+Id_8=01775b06-e86e-4099-8d79-ec59bd124243
+Name_3=Workspace 3
+Name_4=Workspace 4
+Name_5=Workspace 5
+Name_6=Workspace 6
+Name_7=Workspace 7
+Name_8=Workspace 8
+Number=8
+Rows=2
+
+[Effect-shakecursor]
+Magnification=10
+
+[Plugins]
+shakecursorEnabled=false
+
+[Tiling][01775b06-e86e-4099-8d79-ec59bd124243][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][329f5954-836f-457c-93b8-1dc1dab04337][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3629cd03-b2e2-448c-8667-df12be56b7f8][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3770189a-4b39-4fbc-bbc1-1387e57d8e7e][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][48f8cc78-fad1-4f40-b216-7221c738cabb][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][4ca5f749-379e-4487-b20d-c60f0c86c454][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][605ffdcf-1fe5-4747-b13e-61eb8bddc14f][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][731828a9-e5d5-428c-a29c-c5f04400c4a5][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d5285f16-eda1-41fc-90a3-565175eac5bb][e684e5f1-d175-4631-b4d6-0e9366b1d739]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Xwayland]
+Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__KDE-Story-Flat

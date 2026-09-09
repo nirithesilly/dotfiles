@@ -4,7 +4,6 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-# Hermes Agent — ensure ~/.local/bin is on PATH
-export PATH="$HOME/.local/bin:$PATH"
 
-. "$HOME/.local/bin/env"
+# Added by Antigravity CLI installer
+export PATH="/home/niri/.local/bin:$PATH"
